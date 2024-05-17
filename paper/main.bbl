@@ -1,0 +1,122 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{6}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Canziani(2020)]%
+        {TUGInstmem}
+\bibfield{author}{\bibinfo{person}{Alfredo Canziani}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{NYU Deep Learning Spring 2020 (NYU-DLSP20)
+  Binder}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/Atcold/NYU-DLSP20}
+\showURL{%
+Retrieved December, 19, 2023 from \tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2023)]%
+        {chen2023symbolic}
+\bibfield{author}{\bibinfo{person}{Xiangning Chen}, \bibinfo{person}{Chen
+  Liang}, \bibinfo{person}{Da Huang}, \bibinfo{person}{Esteban Real},
+  \bibinfo{person}{Kaiyuan Wang}, \bibinfo{person}{Yao Liu},
+  \bibinfo{person}{Hieu Pham}, \bibinfo{person}{Xuanyi Dong},
+  \bibinfo{person}{Thang Luong}, \bibinfo{person}{Cho-Jui Hsieh},
+  \bibinfo{person}{Yifeng Lu}, {and} \bibinfo{person}{Quoc~V. Le}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Symbolic Discovery of Optimization Algorithms}.
+\newblock
+\newblock
+\showeprint[arxiv]{2302.06675}~[cs.LG]
+
+
+\bibitem[He et~al\mbox{.}(2015)]%
+        {he2015deep}
+\bibfield{author}{\bibinfo{person}{Kaiming He}, \bibinfo{person}{Xiangyu
+  Zhang}, \bibinfo{person}{Shaoqing Ren}, {and} \bibinfo{person}{Jian Sun}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{Deep Residual Learning for Image Recognition}.
+\newblock
+\newblock
+\showeprint[arxiv]{1512.03385}~[cs.CV]
+
+
+\bibitem[Higgins et~al\mbox{.}(2017)]%
+        {higgins2017betavae}
+\bibfield{author}{\bibinfo{person}{Irina Higgins}, \bibinfo{person}{Loic
+  Matthey}, \bibinfo{person}{Arka Pal}, \bibinfo{person}{Christopher Burgess},
+  \bibinfo{person}{Xavier Glorot}, \bibinfo{person}{Matthew Botvinick},
+  \bibinfo{person}{Shakir Mohamed}, {and} \bibinfo{person}{Alexander
+  Lerchner}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{beta-{VAE}: Learning Basic Visual Concepts with a
+  Constrained Variational Framework}. In
+  \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=Sy2fzU9gl}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Nandan(2020)]%
+        {KerasTransformer}
+\bibfield{author}{\bibinfo{person}{Apoorv Nandan}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Text classification with Transformer}}.
+\newblock
+\urldef\tempurl%
+\url{https://keras.io/examples/nlp/text_classification_with_transformer/}
+\showURL{%
+Retrieved December, 19, 2023 from \tempurl}
+
+
+\bibitem[Vaswani et~al\mbox{.}(2023)]%
+        {vaswani2023attention}
+\bibfield{author}{\bibinfo{person}{Ashish Vaswani}, \bibinfo{person}{Noam
+  Shazeer}, \bibinfo{person}{Niki Parmar}, \bibinfo{person}{Jakob Uszkoreit},
+  \bibinfo{person}{Llion Jones}, \bibinfo{person}{Aidan~N. Gomez},
+  \bibinfo{person}{Lukasz Kaiser}, {and} \bibinfo{person}{Illia Polosukhin}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Attention Is All You Need}.
+\newblock
+\newblock
+\showeprint[arxiv]{1706.03762}~[cs.CL]
+
+
+\end{thebibliography}
